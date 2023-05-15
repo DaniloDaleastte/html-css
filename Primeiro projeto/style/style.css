@@ -27,8 +27,8 @@
 }
 
 body {
-    background-color:#c5ebd6;
-    font-family:var(--fonte-padrão);
+    background-color: #c5ebd6;
+    font-family: var(--fonte-padrão);
 }
 
 header {
@@ -37,17 +37,17 @@ header {
     min-height: 150px;
     text-align: center;
     padding-top: 35px;
-
 }
 
 header > p {
-     color:#ffffff;
-     font-size:1.2em;
-     max-width:500px;
-     margin:auto;
-     padding-right:10px;
-     padding-left:10px;
-     text-shadow:2px 2px 0px rgba(0, 0, 0, 0.541);
+     color: #ffffff;
+     font-size: 1.2em;
+     max-width: 500px;
+     margin: auto;
+     padding-right: 10px;
+     padding-left: 10px; 
+     padding-bottom: 30px;
+     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.541); 
 }
 
 header > h1 {
@@ -59,13 +59,13 @@ header > h1 {
 }
 
 nav {
-    background-color:#063d1e;
+    background-color: #063d1e;
     padding: 10px;
     box-shadow: 8px 7px 7px rgba(0, 0, 0, 0.281);
 }
 
 nav > a {
-    color:#3ddc85cb ;
+    color: #3ddc85cb;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -92,7 +92,7 @@ main {
 }
 
 main h1 {
-    color:#063d1e;
+    color: #063d1e;
     font-family: var(--font-android);
     font-weight: normal;
     font-size: 1.8em;
