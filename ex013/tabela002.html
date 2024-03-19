@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STyle>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color:gray;
+        }
+         
+        td, TH{
+             border: 1PX solid black;
+             padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        CAPTION {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: beige;
+             
+        
+        }
+
+         tbody > tr:nth-child(2n){
+            background-color: antiquewhite;
+
+         }
+
+        col.cestado {
+            background-color: aquamarine;
+        }
+
+        div#container {
+            overflow-x:auto ;
+        }
+         
+    </STyle>
+</head>
+<body>
+    <h1>Uso de tabelas grandes </h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE 
+            THEAD  
+                TR, TD, TH
+            TBODY 
+                TR, TD, TH
+            TFOOT 
+                TR, TD, TH 
+            
+    -->
+ <div id="container">
+    <table>
+        <colgroup>
+            <col class="cestado">
+            <col class="cpopulacao">
+        </colgroup>
+        <caption>POPULAÇÃO DAS UNIDADES FEDERATIVAS</caption>
+        <THead>
+         <tr> 
+            <th scope="col">ESTADO</th>
+            <th scope="col" style="width: 50px;">POPULAÇÃO</th>
+        </tr>
+
+        <TBOdy>
+        
+        <tr>
+            <td>MINAS GERAIS</td>
+            <td>449 47124</td>
+        </tr>
+        <tr>
+            <td>RIO DE JANEIRO</td>
+            <TD> 842 28358</TD>
+        </tr>
+
+        
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+            <tr>
+                <td> SÃO PAULO</td>
+                <TD>2357 5259</TD>
+            </tr>
+           </div> 
+
+        </TBOdy>
+        <TFoot>
+            <TR> 
+                <TH scope="row">TOTAL DE HABITANTES</TH>
+                <TD>00000</TD>
+            </TR>
+        </TFoot>
+</THead>
+    </table>
+</body>
+</html>
